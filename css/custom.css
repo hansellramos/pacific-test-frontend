@@ -1,0 +1,13 @@
+body{
+    min-width: 320px;
+    width: auto !important;
+}
+
+.title{
+    text-align: right;
+    margin: 15px;
+}
+
+.canvas-slid .title{
+    display: none;
+}

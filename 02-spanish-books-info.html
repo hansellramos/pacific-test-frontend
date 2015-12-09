@@ -1,0 +1,148 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Hansel Ramos">
+
+    <title>Yuxi Pacific Hansel's Test - 02 Spanish Books Info</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.custom.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/navmenu-reveal.css" rel="stylesheet">
+    <link href="css/menu-reveal.custom.css" rel="stylesheet">
+
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="">
+    <div class="navmenu navmenu-default navmenu-fixed-left">
+        <a class="navmenu-brand" href="#">Yuxi Pacific Hansel's Test</a>
+        <ul class="nav navmenu-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="01-all-books-info.html">All Books</a></li>
+            <li><a href="02-spanish-books-info.html">Spanish Books Info</a></li>
+            <li><a href="03-french-books-names.html">French Books Names</a></li>
+            <li><a href="04-books-names-price-over-100.html">Books Names With Price Over 100</a></li>
+            <li><a href="05-books-info-less-than-100-units.html">Books Information With Less Than 100 units</a></li>
+        </ul>
+    </div>
+
+    <div class="canvas" style="">
+        <div class="navbar navbar-default navbar-fixed-top" style="">
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas=".canvas">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="title">
+                <h1>Yuxi Pacific Hansel's Test</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page-header">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Spanish Books Info</li>
+                </ul>
+                <h1>Spanish Books Info</h1>
+            </div>
+            <div class="botones"></div>
+            <table class="table table-striped table-hover" id="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Country</th>
+                        <th>Language</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div><!-- /.container -->
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css">
+    <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.10/js/dataTables.bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/autofill/2.1.0/css/autoFill.bootstrap.min.css">
+    <script src="https://cdn.datatables.net/autofill/2.1.0/js/dataTables.autoFill.min.js"></script>
+    <script src="https://cdn.datatables.net/autofill/2.1.0/js/autoFill.bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.1.0/css/buttons.bootstrap.min.css">
+    <script src="https://cdn.datatables.net/buttons/1.1.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.bootstrap.min.js"></script>
+
+    <script src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.colVis.min.js"></script>
+
+    <script src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.html5.min.js"></script>
+
+    <script src="https://cdn.datatables.net/buttons/1.1.0/js/buttons.print.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.0/css/fixedHeader.bootstrap.min.css">
+    <script src="https://cdn.datatables.net/fixedheader/3.1.0/js/dataTables.fixedHeader.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.0.0/css/responsive.bootstrap.min.css">
+    <script src="https://cdn.datatables.net/responsive/2.0.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.0.0/js/responsive.bootstrap.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+
+    <script>
+        $(document).ready(function(){
+            var table = $("#table").DataTable({
+                dom: 'Bfrtip',
+                buttons: [
+                    'copyHtml5',
+                    'excelHtml5',
+                    'csvHtml5',
+                    'pdfHtml5'
+                ]
+            });
+            $.getJSON(_uri+'book/lang/Spanish', function(data){
+                if(data.result == 'ok'){
+                    $.each( data.content, function( key, book ) {
+                        table.row.add(
+                                [ book.Title, book.Author,book.Country, book.Language, book.Price, book.Quantity ]
+                        ).draw();
+                    });
+                }else{
+                    alert(data.message);
+                }
+            }).fail(function() {
+                alert( "An error was ocurred" );
+            });
+        });
+    </script>
+
+
+    </body>
+</html>

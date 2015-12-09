@@ -11,3 +11,37 @@ body{
 .canvas-slid .title{
     display: none;
 }
+
+.navbar{
+    background: #2196f3;
+    color: #fff;
+}
+
+.navbar h1{
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.buttons-html5{
+    color: #fff;
+    border: 0px;
+}
+
+.buttons-excel{
+    background: green;
+}
+
+.buttons-pdf{
+    background: red;
+}
+
+.buttons-copy{
+    background: #2196f3;
+}
+
+.buttons-csv{
+    background: black;
+}
